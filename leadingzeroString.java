@@ -5,13 +5,13 @@ public class leadingzeroString {
 	public static void main(String[] args) {
 		String st ="000012345";
 		String newst = " ";
-		int index = 0;
+		int x = 0;
 		for(int i=0;i<st.length();i++)
 		{
 			char ch = st.charAt(i);
 			if(ch!='0')
 			{
-				index=i;
+				x=i;
 				break;
 			}
 			
